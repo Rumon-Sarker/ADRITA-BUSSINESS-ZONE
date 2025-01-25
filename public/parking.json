@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "location": "Central Park Garage",
+        "address": "101 Main St, Cityville",
+        "date": "2024-11-13",
+        "local_time": "08:00 AM",
+        "price_hourly": 3.5,
+        "price_monthly": 120.0,
+        "available_spaces": 20,
+        "total_spaces": 100,
+        "start_time": "08:00 AM",
+        "end_time": "06:00 PM",
+        "amenities": [
+            "Covered Parking",
+            "CCTV",
+            "Handicap Access"
+        ],
+        "contact_number": "123-456-7890",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "location": "West End Parking",
+        "address": "200 West St, Cityville",
+        "date": "2024-11-13",
+        "local_time": "07:30 AM",
+        "price_hourly": 2.0,
+        "price_monthly": 100.0,
+        "available_spaces": 50,
+        "total_spaces": 150,
+        "start_time": "07:00 AM",
+        "end_time": "08:00 PM",
+        "amenities": [
+            "Open Air",
+            "Security",
+            "Restrooms"
+        ],
+        "contact_number": "321-654-0987",
+        "rating": 4.2
+    },
+    {
+        "id": 3,
+        "location": "Eastside Parking Lot",
+        "address": "350 East St, Cityville",
+        "date": "2024-11-13",
+        "local_time": "09:00 AM",
+        "price_hourly": 2.5,
+        "price_monthly": 110.0,
+        "available_spaces": 30,
+        "total_spaces": 120,
+        "start_time": "06:00 AM",
+        "end_time": "10:00 PM",
+        "amenities": [
+            "Covered Parking",
+            "EV Charging",
+            "Bike Racks"
+        ],
+        "contact_number": "213-546-8790",
+        "rating": 4.3
+    },
+    {
+        "id": 4,
+        "location": "South Parking Plaza",
+        "address": "500 South Rd, Cityville",
+        "date": "2024-11-13",
+        "local_time": "06:30 AM",
+        "price_hourly": 3.0,
+        "price_monthly": 115.0,
+        "available_spaces": 40,
+        "total_spaces": 200,
+        "start_time": "06:00 AM",
+        "end_time": "12:00 AM",
+        "amenities": [
+            "Open Air",
+            "Valet",
+            "Handicap Access"
+        ],
+        "contact_number": "432-167-9823",
+        "rating": 4.0
+    },
+    {
+        "id": 5,
+        "location": "Green Street Garage",
+        "address": "750 Green St, Cityville",
+        "date": "2024-11-13",
+        "local_time": "07:00 AM",
+        "price_hourly": 2.75,
+        "price_monthly": 105.0,
+        "available_spaces": 35,
+        "total_spaces": 150,
+        "start_time": "07:00 AM",
+        "end_time": "09:00 PM",
+        "amenities": [
+            "CCTV",
+            "Restrooms",
+            "Bike Racks"
+        ],
+        "contact_number": "546-234-9087",
+        "rating": 4.1
+    },
+    {
+        "id": 6,
+        "location": "Downtown Deck",
+        "address": "600 Central Ave, Cityville",
+        "date": "2024-11-13",
+        "local_time": "08:30 AM",
+        "price_hourly": 3.25,
+        "price_monthly": 125.0,
+        "available_spaces": 60,
+        "total_spaces": 250,
+        "start_time": "05:00 AM",
+        "end_time": "11:00 PM",
+        "amenities": [
+            "Covered Parking",
+            "EV Charging",
+            "Security"
+        ],
+        "contact_number": "654-321-9876",
+        "rating": 4.6
+    },
+    {
+        "id": 7,
+        "location": "Liberty Plaza Parking",
+        "address": "900 Liberty Rd, Cityville",
+        "date": "2024-11-13",
+        "local_time": "07:15 AM",
+        "price_hourly": 2.5,
+        "price_monthly": 110.0,
+        "available_spaces": 80,
+        "total_spaces": 300,
+        "start_time": "06:00 AM",
+        "end_time": "10:00 PM",
+        "amenities": [
+            "Open Air",
+            "Handicap Access",
+            "Security"
+        ],
+        "contact_number": "789-654-3210",
+        "rating": 4.4
+    },
+    {
+        "id": 8,
+        "location": "East Garage",
+        "address": "1200 East Ave, Cityville",
+        "date": "2024-11-13",
+        "local_time": "06:45 AM",
+        "price_hourly": 2.0,
+        "price_monthly": 95.0,
+        "available_spaces": 25,
+        "total_spaces": 100,
+        "start_time": "07:00 AM",
+        "end_time": "08:00 PM",
+        "amenities": [
+            "CCTV",
+            "Restrooms",
+            "EV Charging"
+        ],
+        "contact_number": "345-678-1234",
+        "rating": 4.0
+    },
+    {
+        "id": 9,
+        "location": "Riverfront Parking",
+        "address": "210 Riverfront Dr, Cityville",
+        "date": "2024-11-13",
+        "local_time": "07:50 AM",
+        "price_hourly": 2.75,
+        "price_monthly": 120.0,
+        "available_spaces": 10,
+        "total_spaces": 75,
+        "start_time": "06:00 AM",
+        "end_time": "08:00 PM",
+        "amenities": [
+            "Covered Parking",
+            "Security",
+            "Handicap Access"
+        ],
+        "contact_number": "567-890-1234",
+        "rating": 4.2
+    },
+    {
+        "id": 10,
+        "location": "Mountain View Parking",
+        "address": "1500 Hillside Blvd, Cityville",
+        "date": "2024-11-13",
+        "local_time": "09:30 AM",
+        "price_hourly": 3.0,
+        "price_monthly": 130.0,
+        "available_spaces": 15,
+        "total_spaces": 80,
+        "start_time": "08:00 AM",
+        "end_time": "06:00 PM",
+        "amenities": [
+            "Open Air",
+            "CCTV",
+            "EV Charging"
+        ],
+        "contact_number": "890-123-4567",
+        "rating": 4.3
+    }
+]

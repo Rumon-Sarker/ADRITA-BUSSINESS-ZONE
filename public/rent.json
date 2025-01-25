@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "7 Days Ago",
+        "address": "Ahmed Road, Prianka City",
+        "location": "Sector - 12, Uttara, Dhaka-1230",
+        "details": "3 Bed, 2 Bath, Drawing, Dining",
+        "price": "32,000 BDT"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "5 Days Ago",
+        "address": "Gulshan Avenue",
+        "location": "Gulshan, Dhaka-1212",
+        "details": "4 Bed, 3 Bath, Kitchen, Balcony",
+        "price": "50,000 BDT"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "10 Days Ago",
+        "address": "Banani Road 11",
+        "location": "Banani, Dhaka-1213",
+        "details": "2 Bed, 1 Bath, Kitchen",
+        "price": "25,000 BDT"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "3 Days Ago",
+        "address": "Bashundhara Block C",
+        "location": "Bashundhara, Dhaka",
+        "details": "5 Bed, 4 Bath, Drawing, Dining",
+        "price": "60,000 BDT"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "1 Day Ago",
+        "address": "Dhanmondi 27",
+        "location": "Dhanmondi, Dhaka-1209",
+        "details": "3 Bed, 2 Bath, Kitchen, Living Room",
+        "price": "45,000 BDT"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "12 Days Ago",
+        "address": "Mirpur DOHS",
+        "location": "Mirpur, Dhaka",
+        "details": "4 Bed, 3 Bath, Drawing, Dining",
+        "price": "35,000 BDT"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "9 Days Ago",
+        "address": "Mohammadpur Town Hall",
+        "location": "Mohammadpur, Dhaka",
+        "details": "2 Bed, 1 Bath, Kitchen",
+        "price": "20,000 BDT"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "8 Days Ago",
+        "address": "Badda Link Road",
+        "location": "Badda, Dhaka",
+        "details": "3 Bed, 2 Bath, Balcony",
+        "price": "28,000 BDT"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "6 Days Ago",
+        "address": "Malibagh Chowdhury Para",
+        "location": "Malibagh, Dhaka",
+        "details": "2 Bed, 2 Bath, Drawing",
+        "price": "27,000 BDT"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "15 Days Ago",
+        "address": "Shantinagar",
+        "location": "Shantinagar, Dhaka",
+        "details": "3 Bed, 2 Bath, Kitchen",
+        "price": "30,000 BDT"
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "4 Days Ago",
+        "address": "Eskaton Garden",
+        "location": "Eskaton, Dhaka",
+        "details": "4 Bed, 3 Bath, Dining",
+        "price": "55,000 BDT"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "13 Days Ago",
+        "address": "Moghbazar Wireless",
+        "location": "Moghbazar, Dhaka",
+        "details": "3 Bed, 2 Bath, Balcony",
+        "price": "40,000 BDT"
+    },
+    {
+        "id": 13,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "2 Days Ago",
+        "address": "Khilgaon Taltola",
+        "location": "Khilgaon, Dhaka",
+        "details": "2 Bed, 1 Bath, Kitchen",
+        "price": "22,000 BDT"
+    },
+    {
+        "id": 14,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "11 Days Ago",
+        "address": "Jatrabari Chowrasta",
+        "location": "Jatrabari, Dhaka",
+        "details": "3 Bed, 2 Bath, Drawing",
+        "price": "25,000 BDT"
+    },
+    {
+        "id": 15,
+        "image": "https://i.ibb.co/rwV3Rnh/image.png",
+        "datePosted": "14 Days Ago",
+        "address": "Shahbag Square",
+        "location": "Shahbag, Dhaka",
+        "details": "2 Bed, 1 Bath, Kitchen",
+        "price": "24,000 BDT"
+    }
+]
