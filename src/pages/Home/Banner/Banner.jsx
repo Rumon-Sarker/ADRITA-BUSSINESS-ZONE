@@ -1,49 +1,65 @@
 import React from "react";
 import Slider from "react-slick";
-import banenr1 from "../../../assets/Img/Banner/banner.png"
-import banenr2 from "../../../assets/Img/Banner/banner2.png"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const CarouselBanner = () => {
-    const settings = {
-        dots: true, // Show dots for navigation
-        infinite: true, // Loop the carousel
-        speed: 500, // Speed of the transition
-        slidesToShow: 1, // Show one slide at a time
-        slidesToScroll: 1, // Scroll one slide at a time
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 3000, // Time between slides
-    };
+import banner2 from "../../../assets/Img/Banner/banner.png";
 
-    return (
-        <div className="w-full py-12 pt-16">
-            <Slider {...settings}>
-                {/* Banner 1 */}
-                <div className="relative">
-                    <img
-                        src={banenr1}
-                        alt="Banner 1"
-                        className="object-cover w-full "
-                    />
-                    {/* <div className="absolute text-center text-white transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                        <h2 className="text-4xl font-semibold">Welcome to Our Website</h2>
-                        <p className="mt-4 text-xl">Find the best services with us!</p>
-                    </div> */}
-                </div>
-
-                {/* Banner 2 */}
-                <div className="relative">
-                    <img
-                        src={banenr2}
-                        className="object-cover w-full "
-                    />
-                    {/* <div className="absolute text-center text-white transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                        <h2 className="text-4xl font-semibold">Explore Amazing Offers</h2>
-                        <p className="mt-4 text-xl">Grab the best deals now!</p>
-                    </div> */}
-                </div>
-            </Slider >
-        </div >
-    );
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
 };
 
-export default CarouselBanner;
+const AboutUs = () => {
+  return (
+    <div id="home" className=" overflow-hidden bg-slate-400">
+      <div className="w-full py-12 pt-16">
+        <Slider {...settings}>
+          {/* Banner 1 */}
+          <div className="relative">
+            <img
+              src={
+                "https://aicdn.picsart.com/55cf2ab0-9486-46d1-95e3-beec7bff8845.png"
+              }
+              alt="Banner1"
+              className=" xl:h-[700px] lg:h-[500px] md:h-[400px] h-[350px] w-full"
+            />
+            <div className="absolute left-28 top-1/2 text-center transform -translate-y-1/2 text-white">
+              <h2 className="xl:text-5xl lg:text-4xl text-3xl font-semibold">
+                Welcome to Our Website
+              </h2>
+              <p className="mt-4 text-xl">Find the best services with us!</p>
+              <a href="#products">
+                <button className="mt-4 bg-blue-500 text-white px-6 py-2 rounded-lg">
+                  Shop Now
+                </button>
+              </a>
+            </div>
+          </div>
+          {/* Banner 2 */}
+          <div className="relative">
+            <img
+              src={banner2}
+              alt="Banner 2"
+              className=" xl:h-[700px] lg:h-[500px] md:h-[400px] h-[350px] w-full"
+            />
+            {/* <div className="absolute left-10 top-1/2 transform -translate-y-1/2 text-white">
+              <h2 className="text-4xl font-semibold">Explore Amazing Offers</h2>
+              <p className="mt-4 text-xl">Grab the best deals now!</p>
+              <button className="mt-4 bg-green-500 text-white px-6 py-2 rounded-lg">
+                Shop Now
+              </button>
+            </div> */}
+          </div>
+        </Slider>
+      </div>
+    </div>
+  );
+};
+
+export default AboutUs;
