@@ -12,7 +12,7 @@ import Oil from "../../assets/Product/oil.png";
 const products = [
   {
     id: 1,
-    name: "Chicken Breast",
+    name: "Fresh Vegetables",
     price: 250,
     image: Vasitable,
   },
