@@ -59,10 +59,10 @@ const ContactUs = () => {
           <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
             Contact Information
           </h2>
-          <p className="text-gray-700 py-12">
+          <p className="text-gray-700 md:py-12 py-5">
             Reach out through any of the channels below.
           </p>
-          <div className="space-y-7">
+          <div className="md:space-y-7 space-y-3">
             <p className="flex items-center text-gray-700 lg:text-xl text-base hover:text-blue-500 transition">
               📍{" "}
               <span className="ml-3">
@@ -77,7 +77,7 @@ const ContactUs = () => {
               ✉️ <span className="ml-3">adritabusinesszone@gmail.com</span>
             </p>
           </div>
-          <div className="flex text-2xl space-x-4 pt-28">
+          <div className="flex text-2xl space-x-4 lg::pt-28 mt-16">
             <p className="text-blue-500 transition-transform transform hover:scale-110">
               <FaFacebook />
             </p>
@@ -88,7 +88,7 @@ const ContactUs = () => {
               <FaLinkedin />
             </p>
             <p>
-              <FaTiktok />
+              <FaTiktok className=" transition-transform transform hover:scale-110" />
             </p>
           </div>
 

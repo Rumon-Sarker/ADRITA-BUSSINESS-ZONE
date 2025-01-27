@@ -7,4 +7,7 @@ export default {
     extend: {},
   },
   plugins: [daisyui],
+  daisyui: {
+    darkTheme: false, // This disables dark mode
+  },
 };

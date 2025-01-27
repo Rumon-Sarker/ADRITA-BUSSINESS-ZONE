@@ -47,7 +47,7 @@ const AboutUs = () => {
       </div>
 
       {/* Mission & Vision */}
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div id="mission" className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="p-6 bg-blue-100 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-gray-800">Our Mission</h2>
           <p className="text-gray-700 mt-4">

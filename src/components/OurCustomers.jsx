@@ -59,7 +59,7 @@ const OurCustomers = () => {
   };
   return (
     <div className="container overflow-hidden mx-auto xl:py-12 lg:py-10 md:py-8 py-6 ">
-      <h1 className="xl:text-5xl lg:text-4xl text-3xl font-bold xl:py-12 lg:py-10 md:py-8 py-6">
+      <h1 className="xl:text-5xl lg:text-4xl text-3xl px-2 font-bold xl:py-12 lg:py-10 md:py-8 py-6">
         Our Customers
       </h1>
       <Slider {...settings}>

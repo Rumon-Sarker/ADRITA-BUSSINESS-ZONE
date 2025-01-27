@@ -1,7 +1,11 @@
-import { FaShoppingCart } from "react-icons/fa";
+import { FaHome, FaProductHunt, FaShoppingCart } from "react-icons/fa";
 import navLogo1 from "../../assets/Logo/MiddaleLogo.png";
 import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { AiOutlineProduct } from "react-icons/ai";
+import { TbTruckDelivery } from "react-icons/tb";
+import { RiContactsBook3Fill } from "react-icons/ri";
+import { MdRoundaboutRight } from "react-icons/md";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,9 +56,33 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-white text-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content space-y-3  bg-blue-200 text-black rounded z-[1] mt-1 w-52 p-4 uppercase shadow-2xl"
             >
-              {navItems}
+              <li className="hover:text-blue-600">
+                <a href="#home">
+                  <FaHome /> Home
+                </a>
+              </li>
+              <li className="hover:text-blue-600">
+                <a href="#products">
+                  <AiOutlineProduct /> Our Product
+                </a>
+              </li>
+              <li className="hover:text-blue-600">
+                <a href="#services">
+                  <TbTruckDelivery /> Services
+                </a>
+              </li>
+              <li className="hover:text-blue-600">
+                <a href="#about">
+                  <MdRoundaboutRight /> About Us
+                </a>
+              </li>
+              <li className="hover:text-blue-600">
+                <a href="#contact">
+                  <RiContactsBook3Fill /> Contact Us
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -90,7 +118,7 @@ const Navbar = () => {
 
           <a
             href="#register"
-            className="px-6 py-2 text-white bg-blue-500 hover:text-black rounded-lg shadow-lg btn hover:bg-blue-300"
+            className="px-6 py-2 text-black bg-blue-200 hover:text-white rounded-lg shadow-lg btn hover:bg-blue-400"
           >
             Login
           </a>

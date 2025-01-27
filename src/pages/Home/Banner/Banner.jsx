@@ -17,7 +17,7 @@ const settings = {
 
 const AboutUs = () => {
   return (
-    <div id="home" className=" overflow-hidden bg-slate-400">
+    <div id="home" className=" overflow-hidden bg-slate-200">
       <div className="w-full py-12 pt-16">
         <Slider {...settings}>
           {/* Banner 1 */}
@@ -29,13 +29,15 @@ const AboutUs = () => {
               alt="Banner1"
               className=" xl:h-[700px] lg:h-[500px] md:h-[400px] h-[350px] w-full"
             />
-            <div className="absolute left-28 top-1/2 text-center transform -translate-y-1/2 text-white">
-              <h2 className="xl:text-5xl lg:text-4xl text-3xl font-semibold">
+            <div className="absolute lg:left-28 left-10 top-1/2 text-center transform -translate-y-1/2 text-white">
+              <h2 className="xl:text-7xl lg:text-4xl text-3xl md:font-extrabold ">
                 Welcome to Our Website
               </h2>
-              <p className="mt-4 text-xl">Find the best services with us!</p>
+              <p className="mt-4 lg:text-3xl text-xl">
+                Find the best services with us!
+              </p>
               <a href="#products">
-                <button className="mt-4 bg-blue-500 text-white px-6 py-2 rounded-lg">
+                <button className="mt-4 bg-blue-500 hover:bg-blue-800 hover:scale-105 text-white px-6 py-2 rounded-lg">
                   Shop Now
                 </button>
               </a>
