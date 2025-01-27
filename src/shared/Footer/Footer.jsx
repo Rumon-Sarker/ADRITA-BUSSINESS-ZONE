@@ -18,7 +18,11 @@ const Footer = () => {
         <aside>
           <a href="#home">
             {" "}
-            <img className="rounded-full w-28 h-28" src={logo} alt="logo" />
+            <img
+              className="rounded-full md:w-28 md:h-28 lg:w-32 lg:h-32 w-20 h-20"
+              src={logo}
+              alt="logo"
+            />
           </a>
           <p>
             ADRITA BUSINESS ZONE

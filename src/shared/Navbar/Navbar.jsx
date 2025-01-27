@@ -89,9 +89,13 @@ const Navbar = () => {
           {/* Logo */}
           <a
             href="#home"
-            className="flex items-center justify-end space-x-2 text-xl font-semibold normal-case btn btn-ghost"
+            className="flex items-center justify-end text-xl font-bold normal-case px-2 rounded hover:bg-blue-300"
           >
-            <img className="w-10 h-10 rounded-full" src={navLogo1} alt="Logo" />
+            <img
+              className="lg:w-20 lg:h-20 md:w-16 md:h-16  w-12 h-12 rounded-full"
+              src={navLogo1}
+              alt="Logo"
+            />
             <span className=" md:block hidden">
               ADRITA <span className="text-green-600">BUSINESS</span> ZONE
             </span>
