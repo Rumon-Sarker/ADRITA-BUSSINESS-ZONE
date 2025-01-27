@@ -1,5 +1,6 @@
 import AboutUs from "../../components/AboutUs";
 import ContactUs from "../../components/ContactUs";
+import FAQ from "../../components/FAQ";
 import GoogleMap from "../../components/GoogleMap";
 import OurCustomers from "../../components/OurCustomers";
 import TeamSection from "../../components/OurTeam";
@@ -18,6 +19,7 @@ const Home = () => {
       <AboutUs />
       <TeamSection />
       <TestimonialPage />
+      <FAQ />
       <ContactUs />
       <GoogleMap />
     </section>
