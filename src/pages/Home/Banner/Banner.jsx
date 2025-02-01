@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import banner2 from "../../../assets/Img/Banner/banner.png";
+import banner1 from "../../../assets/Img/Banner/banner1.png";
 
 const settings = {
   dots: true,
@@ -23,9 +24,7 @@ const AboutUs = () => {
           {/* Banner 1 */}
           <div className="relative">
             <img
-              src={
-                "https://aicdn.picsart.com/55cf2ab0-9486-46d1-95e3-beec7bff8845.png"
-              }
+              src={banner1}
               alt="Banner1"
               className=" xl:h-[700px] lg:h-[500px] md:h-[400px] h-[350px] w-full"
             />

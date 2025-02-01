@@ -1,15 +1,24 @@
 import React, { useState } from "react";
 
 import fish from "../../assets/Product/Fish.png";
-import Eggs from "../../assets/Product/Eggs.png";
+import OrganicItems from "../../assets/Product/OIP.jpg";
+import fruits from "../../assets/Product/R.jpg";
 import mite from "../../assets/Product/Mite.png";
 import Vasitable from "../../assets/Product/Vasitable.png";
-import honey from "../../assets/Product/honey.png";
-import RuchiOrangeJam from "../../assets/Product/RuchiOrangeJam.png";
-import Rice from "../../assets/Product/Rice.png";
-import Oil from "../../assets/Product/oil.png";
 
 const products = [
+  {
+    id: 3,
+    name: "Fresh Meat",
+    price: 50,
+    image: mite,
+  },
+  {
+    id: 4,
+    name: "Fish Procced",
+    price: 120,
+    image: fish,
+  },
   {
     id: 1,
     name: "Fresh Vegetables",
@@ -18,46 +27,15 @@ const products = [
   },
   {
     id: 2,
-    name: "Eggs",
+    name: "Fresh Fruits",
     price: 80,
-    image: Eggs,
-  },
-  {
-    id: 3,
-    name: "Brown Bread",
-    price: 50,
-    image: mite,
-  },
-
-  {
-    id: 4,
-    name: "Fresh Fish",
-    price: 120,
-    image: fish,
-  },
-  {
-    id: 5,
-    name: "Dabur Honey",
-    price: 120,
-    image: honey,
-  },
-  {
-    id: 6,
-    name: "Ruchi Orange Jam",
-    price: 120,
-    image: RuchiOrangeJam,
+    image: fruits,
   },
   {
     id: 7,
-    name: "ACI Pure Chinigura Rice",
-    price: 120,
-    image: Rice,
-  },
-  {
-    id: 8,
-    name: "Fresh Soyabean Oil",
-    price: 120,
-    image: Oil,
+    name: "Fresh Organic Items",
+    price: 80,
+    image: OrganicItems,
   },
 ];
 

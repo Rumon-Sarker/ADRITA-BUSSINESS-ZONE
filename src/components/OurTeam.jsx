@@ -9,7 +9,7 @@ const teamMembers = [
   {
     id: 1,
     name: "JOY PROKASH DAS",
-    position: "Proprietor & CEO",
+    position: "CEO",
     contact: "+88018-98805081",
     email: "adritabusinesszone@gmail.com",
     address:
@@ -31,8 +31,8 @@ const teamMembers = [
 
   {
     id: 3,
-    name: "HIMEL TAJ",
-    position: "COO",
+    name: "HIMEL RANJAN DAS",
+    position: "Proprietor",
     contact: "+88018-98805081",
     email: "adritabusinesszone@gmail.com",
     address:
