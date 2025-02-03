@@ -15,7 +15,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Fish Procced",
+    name: "Fish Proceed",
     price: 120,
     image: fish,
   },
